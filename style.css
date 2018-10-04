@@ -1,0 +1,19 @@
+header{
+	text-align: center;
+	background-image: url(gaming-pattern/gaming-pattern.png);
+}
+.navbar ul{
+	margin: 0 auto;
+}
+section{
+	text-align: center;
+}
+img {
+    border-radius: 50%;
+}
+body{
+	background-image: url(gaming-pattern/gaming-pattern.png);
+}
+/*h1 {
+    text-decoration: overline;
+}*/
