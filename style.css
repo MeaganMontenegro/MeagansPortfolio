@@ -1,19 +1,60 @@
+body{
+	height: 100%;
+
+	background-image: url(https://i.imgur.com/JZz4qWW.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+  	background-size: cover;
+}
+
+/*  ------- START HEADER ------- */
+
 header{
+	padding: 50px;
 	text-align: center;
-	background-image: url(gaming-pattern/gaming-pattern.png);
+	/*background-image: url(https://i.imgur.com/JZz4qWW.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-position: center center;
+	height: 100%;
+	*/
+}
+.navbar{
+	background: transparent !important;
+
 }
 .navbar ul{
 	margin: 0 auto;
 }
+
+/*  ------- START CONTENT ------- */
+
+
 section{
-	text-align: center;
+	margin: auto;
+	width: 750px;
+	padding: 60px;
+	background: #FFF;
+	border-radius: 5px;
 }
 img {
     border-radius: 50%;
 }
-body{
-	background-image: url(gaming-pattern/gaming-pattern.png);
+section::before{
+	background: red !important;
 }
-/*h1 {
-    text-decoration: overline;
-}*/
+
+
+/*  ------- FOOTER CONTENT ------- */
+
+footer{
+	background: white;
+    width: 750px;
+    height: 143px;
+    margin: auto;
+	margin-top: 100px;
+    border-radius: 5px 5px 0 0;
+}
